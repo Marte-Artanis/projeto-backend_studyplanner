@@ -43,15 +43,22 @@ O **StudyPlanner** é uma aplicação de linha de comando (CLI) para ajudar estu
 ### Passos
 
 # Clone o repositório
+
+```
 git clone https://github.com/seu-usuario/StudyPlanner.git
 cd StudyPlanner
+```
 
 # Execute o aplicativo
+```
 dotnet run
+```
 
 ---
 
 # 🗂️ Estrutura de Arquivos
+
+```
 StudyPlanner/
 ├── Models/             # Modelos de dados
 │   ├── Goal.cs
@@ -73,6 +80,7 @@ StudyPlanner/
 ├── PlannerContext.cs   # Contexto do banco de dados
 ├── Program.cs          # Ponto de entrada
 └── StudyPlanner.csproj # Configuração do projeto
+```
 
 ---
 
