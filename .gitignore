@@ -1,0 +1,51 @@
+```gitignore
+# Diretórios de build
+bin/
+obj/
+
+# Arquivos do usuário
+*.user
+*.suo
+*.userprefs
+
+# Ambientes de desenvolvimento
+.vs/
+.vscode/
+.idea/
+
+# Banco de dados SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Arquivos de log
+*.log
+*.log.*
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Configurações locais
+appsettings.Development.json
+
+# MacOS
+.DS_Store
+
+# Rider
+*.sln.iml
+
+# DotCover
+*.dotCover
+
+# VS Code
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Pacotes NuGet
+**/[Pp]ackages/*
+
+# Exceções:
+!**/[Pp]ackages/repositories.config
